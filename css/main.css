@@ -56,8 +56,8 @@ body {
     background-color: hsl(0, 0%, 98%);
 }
 
-header h2 {   
-    margin-bottom: 15px;   
+header h2 {
+    margin-bottom: 15px;
     text-align: center;
     margin-top: 50px;
 }
@@ -95,22 +95,22 @@ p {
 
 #card-four {
     border-top: 4px solid hsl(212, 86%, 64%);
-    
+
 }
 
 /*------ Desktop settings-----*/
 
-@media (min-width: 1439px) {
+@media screen and (min-width: 1439px) {
 
     header h2 {
         font-size: 2em;
-        line-height: 1.6em;       
-    }   
- 
+        line-height: 1.6em;
+    }
+
     header p {
         text-align: center;
         width: 33%;
-        margin-bottom: 30px        
+        margin-bottom: 30px
     }
 
     .container {

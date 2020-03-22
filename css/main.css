@@ -56,9 +56,10 @@ body {
     background-color: hsl(0, 0%, 98%);
 }
 
-header h2 {
-    line-height: 1.2em;
-    margin-bottom: 15px;
+header h2 {   
+    margin-bottom: 15px;   
+    text-align: center;
+    margin-top: 50px;
 }
 
 h2 {
@@ -67,7 +68,6 @@ h2 {
 }
 
 span {
-
     font-weight: 200;
     color: hsl(229, 6%, 66%);
 }
@@ -76,40 +76,46 @@ p {
     font-weight: 400;
     color: hsl(229, 6%, 66%);
     margin: 15px 30px;
+    font-size: 0.9em;
 }
 
 /*----- Cards set up-----*/
 #card-one {
-    border-top: 5px solid hsl(180, 62%, 55%);
+    border-top: 4px solid hsl(180, 62%, 55%);
 }
 
 #card-two {
-    border-top: 5px solid hsl(0, 78%, 62%);
+    border-top: 4px solid hsl(0, 78%, 62%);
 }
 
 #card-three {
-    border-top: 5px solid hsl(34, 97%, 64%);
+    border-top: 4px solid hsl(34, 97%, 64%);
 
 }
 
 #card-four {
-    border-top: 5px solid hsl(212, 86%, 64%);
-
+    border-top: 4px solid hsl(212, 86%, 64%);
+    
 }
 
 /*------ Desktop settings-----*/
 
 @media (min-width: 1439px) {
 
+    header h2 {
+        font-size: 2em;
+        line-height: 1.6em;       
+    }   
+ 
     header p {
         text-align: center;
         width: 33%;
-        margin-bottom: 30px
+        margin-bottom: 30px        
     }
 
     .container {
         flex-flow: row wrap;
-        width: 1140px;
+        max-width: 1200px;
     }
 
     main {
@@ -118,7 +124,7 @@ p {
     }
 
     .container-items {
-        width: 350px;
+        max-width: 350px;
         margin: 10px;
     }
 
